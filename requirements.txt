@@ -1,0 +1,8 @@
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Optional: only required for rendering computation graphs in
+# experiments/exp1_backward_graph/backward_graph.py (also needs system Graphviz)
+# torchviz>=0.0.2
