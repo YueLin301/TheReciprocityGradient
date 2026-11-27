@@ -21,8 +21,7 @@ In reputation-mediated multi-agent interactions, every action and evaluative sig
 
 **Reciprocity Gradient (RG)** backpropagates reward gradients analytically through differentiable private estimators of opponents' policies learned from public observations, jointly optimizing actions ($\pi^i$) and evaluative signals ($\varphi^i$) without intrinsic rewards or reward shaping.
 
-<details>
-<summary><a name="repository-structure"></a><strong>Repository Structure</strong></summary>
+## Repository Structure
 
 ```text
 .
@@ -45,8 +44,6 @@ In reputation-mediated multi-agent interactions, every action and evaluative sig
     ├── exp3_signal_optimization/               # [Oracle Ref] Signal-only vs. true opponents (App. H, J.2)
     └── exp4_joint_gt/                          # [Oracle Ref] Joint π + φ vs. true opponents (App. J.2)
 ```
-
-</details>
 
 ## Installation
 
